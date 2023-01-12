@@ -1,2 +1,2 @@
 # phone-number-checker-uz
-This function check the phone numbers of Uzbekistan valid or invalid
+This function check the phone number is valid or invalid
