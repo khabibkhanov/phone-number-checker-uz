@@ -22,7 +22,7 @@ const CheckEnteredNumber = (number) => {
     }
 }
 
-console.log(CheckEnteredNumber('998911234567')) // { number: '998913574568' }
+console.log(CheckEnteredNumber('998911234567')) // { number: '998911234567' }
 console.log(CheckEnteredNumber('998963574568')) // { error: 'Invalid mobile network code(MNC), please check it and try again.' }
 console.log(CheckEnteredNumber('798911234567')) // { error: 'Invalid number format, it should start with 998 and followed by 7 digits' }
 console.log(CheckEnteredNumber('99891123456')) // { error: 'Invalid number format, it should start with 998 and followed by 7 digits' }
